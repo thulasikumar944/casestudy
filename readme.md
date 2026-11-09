@@ -60,29 +60,9 @@ The system combines structured SQL retrieval and semantic search to identify rel
 7. Answer synthesizer generates a response based on retrieved data.
 8. The API returns the answer.
 
-## 5. Current Limitations
-
-The current implementation demonstrates the core architecture and retrieval workflow. Some capabilities require additional testing and refinement:
-
-- Broader testing across all supported intents.
-- Improved handling of ambiguous and incomplete questions.
-- Calibration of semantic similarity and fuzzy-matching thresholds.
-- Verification of row-level citations and evidence completeness.
-- Improved handling of large result sets and complex comparisons.
-- More comprehensive evaluation of generated answers and SQL queries.
-
-## 6. Enhancements Required
 
 
-
-- Add a golden evaluation dataset with expected answers and SQL queries.
-- Evaluate retrieval quality, answer faithfulness, and citation correctness.
-- Improve entity resolution using chemical synonyms and domain-specific dictionaries.
-- Add advanced multi-step planning for complex questions.
-
-
-
-## 7. Running the Application
+## 5. Running the Application
 
 Install dependencies:
 
