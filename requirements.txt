@@ -1,0 +1,41 @@
+rapidfuzz
+# Core
+python-dotenv
+pydantic
+pydantic-settings
+
+# Data processing
+pandas
+numpy
+
+# Database
+sqlalchemy
+sqlglot
+
+# LLM and Agent Framework
+langchain
+langchain-core
+langchain-google-genai
+langgraph
+
+# Vector database (for semantic entity resolution)
+chromadb
+langchain-chroma
+langchain-google-vertexai
+
+# Embeddings
+sentence-transformers
+
+# API (optional)
+fastapi
+uvicorn[standard]
+
+# Testing
+pytest
+pytest-asyncio
+
+# Jupyter and exploration
+jupyter
+ipykernel
+matplotlib
+seaborn
